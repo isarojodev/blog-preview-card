@@ -1,0 +1,92 @@
+ 
+ :root{
+
+    /*colores*/
+     --Yellow: hsl(47, 88%, 63%);
+     --White: hsl(0, 0%, 100%) ;
+     --Gray500: hsl(0, 0%, 42%) ;
+     --Gray950: hsl(0, 0%, 7%);
+ }
+
+body {
+    background-color: var(--Yellow);
+    background-size: cover;
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Figtree';
+    padding-bottom: 60px;
+        /* Espacio para el footer */
+   
+}
+
+
+h1 {
+    font-weight: 800;
+   
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+a {
+    color: hsl(228, 45%, 44%)
+}
+
+.card {
+    background-color: var(--White);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: solid;
+    border-radius: 5%;
+    width: 375px;
+    margin: 0 auto;
+}
+
+.imagen {
+
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.letras {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.button {
+    background-color: var(--Yellow);
+    border-radius: 10%;
+    width: 80px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    font-weight: 800;
+    text-align: center;
+    
+}
+.published {
+    color: var(--Gray950);
+}
+
+.descripcion {
+    color: var(--Gray500);
+}
+
+.greg {
+    font-weight: 800;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+
+}
