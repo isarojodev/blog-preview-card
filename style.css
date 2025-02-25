@@ -12,9 +12,12 @@ body {
     background-color: var(--Yellow);
     background-size: cover;
     font-size: 11px;
+    display: flex;
     text-align: center;
+    align-items: center;
     font-family: 'Figtree';
     padding-bottom: 60px;
+    height: 100vh;
         /* Espacio para el footer */
    
 }
@@ -37,20 +40,16 @@ a {
 
 .card {
     background-color: var(--White);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
     border: solid;
     border-radius: 5%;
-    width: 375px;
+    padding: 10px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.9);
+    max-width: 375px;
     margin: 0 auto;
 }
 
 .imagen {
-
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 5%;
 }
 
@@ -80,8 +79,21 @@ a {
     color: var(--Gray500);
 }
 
+.author {
+    display: flex;
+    margin: 25px 20px;
+    align-items: center;
+    
+}
+
+.avatar {
+    max-width: 10%;
+    max-height: 10%;
+}
+
 .greg {
     font-weight: 800;
+    margin-left: 10px;
 }
 
 footer {
